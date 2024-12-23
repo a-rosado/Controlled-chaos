@@ -1,9 +1,17 @@
+import Navbar from "@/components/navbar";
+import Hero from "@/components/heroImg";
+import PlatinumSponsor from "@/components/platinumSponsor";
+import Highlights from "@/components/highlights";
+import Footer from "@/components/footer";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-blue flex justify-center items-center">
-      <h1 className="text-white text-4xl font-bold">
-        Welcome to Controlled Chaos Racing!
-      </h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <PlatinumSponsor/>
+      <Highlights />
+      <Footer />
     </div>
   );
 }
