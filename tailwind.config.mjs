@@ -10,6 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        blue: "#0D47F7"
+      },
+      fontFamily: {
+        sans: ["Roboto", "Open Sans", "Lato", "sans-serif"],
       },
     },
   },
