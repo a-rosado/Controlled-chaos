@@ -8,7 +8,7 @@ export default function PlatinumSponsor() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
             <div>
               <img
-                src="/sponsor-logo1.png"
+                src="/public/file.svg"
                 alt="Sponsor 1"
                 className="mx-auto w-12 h-12 sm:w-16 sm:h-16"
               />
@@ -16,7 +16,7 @@ export default function PlatinumSponsor() {
             </div>
             <div>
               <img
-                src="/sponsor-logo2.png"
+                src="/public/next.svg"
                 alt="Sponsor 2"
                 className="mx-auto w-12 h-12 sm:w-16 sm:h-16"
               />

@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white px-4 py-3">
+    <nav className="bg-blue text-white px-4 py-3">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-bold sm:text-xl md:text-2xl">
@@ -44,7 +44,7 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-sm sm:text-base">
+        <ul className="hidden md:flex space-x-6 text-sm sm:text-base pr-40 sm:pr-20 xs:pl-2 xs:space-x-4">
           <li>
             <a href="#home" className="hover:text-gray-300">
               Home
