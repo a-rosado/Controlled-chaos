@@ -44,71 +44,63 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-sm sm:text-base pr-40 sm:pr-20 xs:pl-2 xs:space-x-4">
-          <li>
-            <a href="#home" className="hover:text-gray-300">
+        <ul className="hidden md:flex space-x-6 text-sm sm:text-base">
+          <li key="home">
+            <a href="/" className="hover:text-gray-300">
               Home
             </a>
           </li>
-          <li>
-            <a href="#about" className="hover:text-gray-300">
-              About
+          <li key="about">
+            <a href="/about" className="hover:text-gray-300">
+              About Us
             </a>
           </li>
-          <li>
+          <li key="contact">
             <a href="#contact" className="hover:text-gray-300">
               Contact
             </a>
           </li>
-          <li>
-            <a href="#sponsor" className="hover:text-gray-300">
-              Sponsor
+          <li key="sponsor">
+            <a href="#sponsors" className="hover:text-gray-300">
+              Sponsors
             </a>
           </li>
-          <li>
+          <li key="standings">
             <a href="#standings" className="hover:text-gray-300">
               Standings
             </a>
           </li>
-          {/* <li>
-            <a href="#shop" className="hover:text-gray-300">
-              Shop
-            </a>
-          </li> */}
         </ul>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden flex flex-col space-y-4 mt-4">
-          <li>
-            <a href="#home" className="hover:text-gray-300">
+          <li key="home-mobile">
+            <a href="/" className="hover:text-gray-300">
               Home
             </a>
           </li>
-          <li>
-            <a href="#about" className="hover:text-gray-300">
-              About
+          <li key="about-mobile">
+            <a href="/about" className="hover:text-gray-300">
+              About Us
             </a>
           </li>
-          <li>
+          <li key="contact-mobile">
             <a href="#contact" className="hover:text-gray-300">
               Contact
             </a>
           </li>
-          <li>
+          <li key="sponsor-mobile">
             <a href="#sponsor" className="hover:text-gray-300">
-              Sponsor
+              Sponsors
             </a>
           </li>
-          <li>
+          <li key="standings-mobile">
             <a href="#standings" className="hover:text-gray-300">
               Standings
             </a>
           </li>
-          {/* console.log('Shop link clicked'); 
-<li>
-  <a href="#shop" className="hover:text-gray-300 */}
         </ul>
       )}
     </nav>
