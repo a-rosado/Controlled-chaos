@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* TikTok */}
         <a
-          href="https://www.tiktok.com"
+          href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40controlledchaosracingctx%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR34nzyMSffK9JlkQLAcfJxoVfkwIetreKGMrxCNO9zArfgqv0IZ2FWfvC8_aem_Rxg1YUddtS5x8lLeqdnqaQ&h=AT30jOFK99opticqgxxRHLeainKdWW9ZKaGZdbBzLoU6DzwRjMTe5067b2EjoEW3MRyKOjkfmGvu1ZjW7jAm1QDrLe5popK4ceRs8MZJ18Gehs3GbBYBtyaqO7orCQyNZqQF"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400"
@@ -40,7 +40,7 @@ export default function Footer() {
 
         {/* YouTube */}
         <a
-          href="https://www.youtube.com"
+          href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40ControlledChaosRacingCTX-627%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR34nzyMSffK9JlkQLAcfJxoVfkwIetreKGMrxCNO9zArfgqv0IZ2FWfvC8_aem_Rxg1YUddtS5x8lLeqdnqaQ&h=AT33luM-6qOXUOt4gktVJsGY06JXsnVQ2ETarG4aq7IW2Gwk2eQBOqbBVbrw40l6dc_5FpwK98D4du6lkIJDAPtCWKFjitPDUOIvGdnUbnuGBnQihlzBJh-TzC0i9TZL9CCH"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400"
