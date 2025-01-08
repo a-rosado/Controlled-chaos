@@ -11,22 +11,9 @@ export async function POST(request) {
     auth: {
        user: process.env.EMAIL_USER, // Your Gmail address
        pass: process.env.EMAIL_PASS, // Your Gmail app password (App Passwords must be enabled in Google account settings)
-
-    // test only
-    // user: "tony42088@gmail.com", // Your Gmail address
-    // pass: "jxamzutzcvytzrlg", // Your Gmail app password (App Passwords must be enabled
     },
   });
 
-  // Define email options
-  // const mailOptions = {
-  //   from: email,
-  //   to: "controlledchaosracingctx@gmail.com",
-  //   subject: `Contact Form Submission from ${name}`,
-  //   text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-  // };
- 
-  // test only
   const mailOptions = {
     from: email,
     to: "controlledchaosracingctx@gmail.com",
