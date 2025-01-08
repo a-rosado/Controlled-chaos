@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue text-white px-4 py-3">
+    <nav className="bg-blue text-white px-4 py-3 sticky top-0 z-50 shadow-md">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-bold sm:text-xl md:text-2xl">
@@ -56,18 +56,8 @@ export default function Navbar() {
             </a>
           </li>
           <li key="contact">
-            <a href="#contact" className="hover:text-gray-300">
+            <a href="/contact" className="hover:text-gray-300">
               Contact
-            </a>
-          </li>
-          <li key="sponsor">
-            <a href="#sponsors" className="hover:text-gray-300">
-              Sponsors
-            </a>
-          </li>
-          <li key="standings">
-            <a href="#standings" className="hover:text-gray-300">
-              Standings
             </a>
           </li>
         </ul>
@@ -87,7 +77,7 @@ export default function Navbar() {
             </a>
           </li>
           <li key="contact-mobile">
-            <a href="#contact" className="hover:text-gray-300">
+            <a href="/contact" className="hover:text-gray-300">
               Contact
             </a>
           </li>
