@@ -53,7 +53,7 @@ export default function About() {
       </section>
 
       {/* Intro Team Section */}
-      <section className="py-12 px-4 sm:px-8 bg-blue">
+      <section className="py-12 px-4 sm:px-8">
         {/* Row 1 */}
         <div
           className="flex flex-col md:flex-row items-center gap-8 mb-12"
@@ -66,11 +66,10 @@ export default function About() {
             height={300}
             className="rounded-lg"
           />
-          <div className="text-center md:text-left text-white">
+          <div className="text-center md:text-left text-black">
             <h2 className="text-xl font-bold">Chris Wold</h2>
             <p className="mt-2 text-sm sm:text-base">
-              Controlled Chaos Racing started with a dream to dominate the
-              racetrack and inspire the next generation of riders.
+            Born and raised in Minnesota, I dedicated 25 years of my life to proudly serving in the Army, from 1992 to 2017. My passion for two wheels began in 2000, and by 2009, I found my calling on the racetrack. I earned my race license in 2022, but the challenges of the pandemic nearly put my racing dreams on hold—until my son reignited my drive by starting his own racing journey in 2023. By 2024, I joined him on the grid, embracing the thrill of competition once again. Now, I compete in C SuperBike, C SuperStock, B SuperStock, and Formula 40, proving that passion and determination have no age limit. Together, my son and I are chasing our dreams, one lap at a time!
             </p>
           </div>
         </div>
@@ -87,7 +86,7 @@ export default function About() {
             height={300}
             className="rounded-lg"
           />
-          <div className="text-center md:text-left text-white">
+          <div className="text-center md:text-left text-black">
             <h2 className="text-xl font-bold">Dakota Wold</h2>
             <p className="mt-2 text-sm sm:text-base">
               Born and raised in Texas, I proudly served in the Army from 2017 to

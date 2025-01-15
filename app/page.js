@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Highlights Section */}
-      <section className="py-12 px-4" data-aos="fade-up">
+      <section className="" data-aos="fade-up">
         <Highlights />
       </section>
     </div>
